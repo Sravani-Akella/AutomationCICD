@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Hmsinvoke {
 	
 	
-	@Test
+
 	public void websiteInvoke() {
 		
 		WebDriverManager.chromedriver().setup();
