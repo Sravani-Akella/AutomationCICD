@@ -4,6 +4,17 @@
   <artifactId>jemkins_practice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <description>jenkins</description>
+  
+  <properties>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+  
+  
+  
+  
+  
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 <dependency>
@@ -88,12 +99,12 @@
 		
 	
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.9.0</version>
-    <scope>test</scope>
+    <scope>te	st</scope>
 </dependency>
 
 
