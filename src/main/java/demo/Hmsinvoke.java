@@ -24,6 +24,7 @@ public class Hmsinvoke {
 		driver.findElement(By.xpath("//input[@id='frmLogin:txtUserName']")).sendKeys("sakella218");
 		driver.findElement(By.xpath("//input[@id='frmLogin:txtPassword']")).sendKeys("finsol");
 		driver.findElement(By.xpath("//input[@id='frmLogin:login']")).click();
+		driver.switchTo().alert().accept();
 	}
 	
 	
